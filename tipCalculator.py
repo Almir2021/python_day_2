@@ -18,6 +18,8 @@ people = int (people)
 tip2 = tip/100
    
  
-restul = ((bill/people) + ((bill*(tip2)/people)))
+result = ((bill/people) + ((bill*(tip2)/people)))
+
+res = "{:.2f}" . format(result)
  
-print(restul)
+print(res)
